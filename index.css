@@ -2,8 +2,14 @@
     display: flex;
     position: absolute;
     z-index: 2;
-    top: 90%; 
-    left: 5%
+    top: 87%; 
+    left: 5%;
+    background-color: white;
+    padding: 20px
+}
+
+h3 {
+    margin-right: 10px
 }
 
 .mouseDetect {
@@ -29,4 +35,8 @@
 
 .each-color.yellow {
     background-color: yellow;
+}
+
+.each-color.green {
+    background-color: green;
 }
