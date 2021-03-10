@@ -30,7 +30,20 @@ for (let r = 0; r < rows; r++){
 
 function updateColor(color){
     selectedColor = color
+    mouseDetect.style.backgroundImage = 'transparent'
     // mouseDetect.style.backgroundColor = color
+}
+
+function updateEraser(){
+    mouseDetect.style.backgroundColor = 'none'
+    mouseDetect.style.border = 'none'
+    mouseDetect.style.backgroundImage = 'url(https://res.cloudinary.com/dfulxq7so/image/upload/v1615336438/eraser-icon-0_qhv2w0.png)'
+    mouseDetect.style.backgroundPosition = 'center'
+    mouseDetect.style.backgroundSize = '100%'
+    mouseDetect.style.backgroundRepeat = 'no-repeat'
+    mouseDetect.style.width = '20px'
+    mouseDetect.style.height = '20px'
+    selectedColor = 'white'
 }
 
 let isDown = false
